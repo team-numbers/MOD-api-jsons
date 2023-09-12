@@ -1,0 +1,34 @@
+{
+  "title": "gui.manneq.event_1.title",
+  "size": [ 240, 140 ],
+  "background": "mod://textures/gui/demo_background.png",
+  "widgets": [
+    {
+      "type": "label",
+      "label": "§k",
+      "pos": [ 10, 20 ]
+    },
+    {
+      "type": "button",
+      "label": "OK",
+      "pos": [ 60, 60 ],
+      "on_press": {
+        "action": "close"
+      }
+    }
+  ],
+
+  "visible": {
+    "type": "prob",
+    "probability": 0.1
+  },
+  
+  "lang": {
+    "en_us": {
+      "gui.manneq.event_1.title": "Welcome App test"
+    },
+    "ja_jp": {
+      "gui.manneq.event_1.title": "App testへようこそ"
+    }
+  }
+}
