@@ -1,23 +1,25 @@
 {
-  "title": "gui.manneq.event_1.title",
-  "size": [ 240, 140 ],
-  "texture": "mod://textures/gui/demo_background.png",
-  "widgets": [
-    {
-      "type": "label",
-      "label": "§k",
-      "pos": [ 10, 20 ]
-    },
-    {
-      "type": "button",
-      "label": "OK",
-      "pos": [ 60, 60 ],
-      "on_press": {
-        "action": "close"
+  "screen": {
+    "title": "gui.manneq.event_1.title",
+    "size": [ 240, 140 ],
+    "texture": "mod://textures/gui/demo_background.png",
+    "widgets": [
+      {
+        "type": "label",
+        "label": "§k",
+        "pos": [ 10, 20 ]
+      },
+      {
+        "type": "button",
+        "label": "OK",
+        "pos": [ 60, 60 ],
+        "on_press": {
+          "action": "close"
+        }
       }
-    }
-  ],
-
+    ],
+  },
+  
   "visible": {
     "type": "prob",
     "probability": 0.1
