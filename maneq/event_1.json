@@ -6,7 +6,7 @@
     "widgets": [
       {
         "type": "label",
-        "label": "§k",
+        "label": "This is Test",
         "pos": [ 10, 20 ]
       },
       {
@@ -30,7 +30,7 @@
       "gui.manneq.event_1.title": "Welcome App test"
     },
     "ja_jp": {
-      "gui.manneq.event_1.title": "App testへようこそ"
+      "gui.manneq.event_1.title": "App test In"
     }
   }
 }
