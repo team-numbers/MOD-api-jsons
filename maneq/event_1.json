@@ -22,7 +22,7 @@
   
   "visible": {
     "type": "prob",
-    "probability": 0.1
+    "probability": 0.5
   },
   
   "lang": {
